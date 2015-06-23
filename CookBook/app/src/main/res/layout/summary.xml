@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_weight="0.25">
+
+        <ImageView
+            android:layout_width="414dp"
+            android:layout_height="321dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/sarny" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.29"
+        android:background="#ff414754"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center|center_horizontal">
+
+            <TextView
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:text="Balotyna z perliczki i sarny na musie z burakow "
+                android:id="@+id/nazwa"
+                android:textColor="#ffffffff"
+                android:focusableInTouchMode="true"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:paddingStart="20dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.40"
+        android:background="#ffffffff"
+        android:weightSum="1"
+        android:paddingStart="30dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="97dp"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.24">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/imageView2"
+                android:src="@drawable/clock"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30 min"
+                android:id="@+id/czas"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="93dp"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.25">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/imageView3"
+                android:src="@drawable/people"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4 osoby"
+                android:id="@+id/osoby"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="87dp"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.37">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/poziom_img"
+                android:src="@drawable/low"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Latwe"
+                android:id="@+id/poziom_txt"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
